@@ -1,0 +1,373 @@
+
+        *{
+    box-sizing:border-box;
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .navbar ul{
+       list-style-type: none;
+       padding: 0px;
+       margin-top:2%;
+       margin-left:5%;
+    }
+    .navbar li{
+        display:inline-block;
+    }
+    .navbar a{
+text-decoration: none;
+color:#333;
+display: block;
+padding: 25px 17px;
+font-size: 18px;
+    }
+    .active{
+      color: black;
+      font-weight: bold; 
+      font-size:17px; 
+    }
+    .Contact{
+        border: 2px solid black;
+        float: right;
+        margin-top:2%;
+        margin-right:10%;
+        background-color: white;
+        width: 130px;
+       height: 30px;
+       font-weight: bold;
+       font-size: 17px;
+    }
+    .Contact:hover{
+        background-color:#333;
+        color: white;
+        font-weight: bold;
+    }
+    .hadding{
+        font-size:50px;
+        color: #333;
+        text-align: justify;
+    }
+    .paragraph{
+        text-align: justify;
+        font-size: 18px;
+    }
+    .row{
+        width:90%;
+        height: auto;
+        margin-left: 4%;
+      text-align: justify;    
+    }
+    .column{
+        width: 45%;
+        float: left;
+        margin-left:4%;
+        margin-top:5%;
+    }
+    @media screen and (max-width:600px) {
+        .column{
+            width:95%;  
+    }
+}
+    .nacher{
+        width: 100%;
+        height: auto;
+    }
+    .Reserve{
+      background-color: #333; 
+      color: white;
+      width:170px;
+      font-size: 17px;
+      font-weight: bold;
+      height: 40px;
+      border-radius: 30px;
+      border: 2px solid black;
+    }
+    .Reserve:hover{
+        background-color:white;
+        color: #333;
+        font-weight: bold;
+    }
+    .create{
+background-color: #333;
+width: 100%;
+float: left;
+color: white;
+margin-top: 5%;
+height: 300px;
+text-align: center;
+    } 
+     @media screen and (max-width:600px) {
+        .create{
+         margin:2%;  
+         width: 96%;
+    }      
+}
+    .create-hadding{
+        font-weight: bold;
+        color: white;
+    } 
+    .My-Travel{
+color: white;
+width:170px;
+font-size: 19px;
+font-weight: bold;
+height: 40px;
+background-color:#333;
+border: 2px solid white;
+margin-top: 3%;
+    }   
+    .My-Travel:hover{
+        background-color:white;
+        color: #333;
+        font-weight: bold;
+    }
+    .column-side{
+        width: 25%;
+        float: left;
+        margin-top: 5%;
+        color: #333;
+        margin-left:6%;
+    }
+    @media screen and (max-width:600px) {
+        .column-side{
+         width: 95%; 
+    }      
+}
+    .Lorem{
+        font-size: 15px;
+        text-align: justify;
+        color: black;
+    }
+    .Lorem-ipsum{
+        font-weight: bold;
+    }
+   .column-middle{
+    width: 100%;
+height: auto;
+    margin-top: 15%;
+    float: left;
+   } 
+   .logo{
+    display:block;
+    margin: auto;
+   }
+   .see-places{
+    text-align: center;
+    font-size:59px;
+    margin-top: 5%;
+    color: #333;
+    font-style: italic;
+   }
+   @media screen and (max-width:600px) {
+    .see-places{
+        font-size:40px;
+    } 
+   }
+   .dolor{
+    text-align: center;
+   }
+   @media screen and (max-width:600px) {
+    .dolor{
+        font-size:17px;
+    } 
+   }
+   .col{
+    width:40%;
+    float: left;
+    height: 500px;
+    margin-left: 5%;
+   }
+   @media screen and (max-width:600px) {
+    .col{
+    width: 100%;
+margin-top: 2%;
+    } 
+   }
+      .nacher-new{
+    width:90%;
+    height: 500px;
+    margin-top:10%;
+   }
+
+   .nacher-img{
+    width:70%;
+    height:200px;
+    margin-top:10%;
+}
+.underline{
+    text-decoration: underline;
+    font-size:29px;
+    margin-top:15%;
+float: left;
+}
+.Lorem-left{
+    float: left;
+    margin-top:15%;
+    margin-left:5%;
+}
+@media screen and (max-width:600px){
+    .Lorem-left{
+        margin-left:1%;
+    }
+}
+.black{
+    background-color: #333;
+    color: white;
+    width: 100%;
+    float: left;
+    margin-top:10%;
+}
+@media screen and (max-width:600px) {
+    .black{
+        margin-top:300px;
+}
+}
+.Choose{
+    width: 40%;
+    float: left;
+    margin-left:10%;
+    margin-top:7%;
+    text-align: justify;
+}
+@media screen and (max-width:600px) {
+    .Choose{
+    width:80%;
+margin-top: 2%;
+    } 
+   }
+.Choose-anywhere{
+    font-size:40px;
+}
+.img-man{
+    width:100%;
+}
+.col-middle{
+    float: left;
+    width:38%;
+    margin-top:5%;
+    margin-left:8%;
+}
+@media screen and (max-width:600px) {
+    .col-middle{
+    width:80%;
+margin-top: 2%;
+    } 
+   }
+.size{
+    font-size:49px;
+    color: #333;
+}
+@media screen and (max-width:600px) {
+    .size{
+    font-size:35px;
+    } 
+   }
+.img-nacher{
+    width: 100%;
+    height:450px;
+}
+.col3{
+    width:25%;  
+    height:350px;
+    float:left;
+    border: 2px solid black;
+    margin-top: 6%;
+    border-radius: 20px;
+    margin-left:7%;
+}
+@media screen and (max-width:600px) {
+    .col3{
+        width:87%; 
+    } 
+   }
+.profile{
+display: block;
+margin: auto;
+width:70px;
+margin-top:6%;
+}
+.here{
+text-align: center;
+}
+.column-new{
+    width: 100%;
+    float: left;
+    margin-top:6%;
+}
+.Customer{
+    text-align: center;
+}
+.email-col{
+    float: left;
+    margin-left:10%;
+    margin-top: 5%;
+}
+.first-name{
+    width:370px;
+    height:40px;
+    font-size:22px;
+    margin-top:3%;
+}    
+@media screen and (max-width:600px){
+    .first-name{
+        width:100%;
+        margin-left:0px;
+    }
+}
+.textarea{
+    width:370px;
+    height: 200px;
+    margin-top: 2%;
+}
+@media screen and (max-width:600px){
+   .textarea{
+        width:100%;
+    }
+}
+.sumbit-email{
+   width: 306px;
+   height: 50px;
+   background-color: #333;
+   color: white;
+   font-size: 19px; 
+   margin-top: 5%;
+}
+.sumbit-email:hover{
+    margin-top:5%;
+    background-color: white;
+    color: #333;
+}
+.email-img{
+   width:70%;
+   height:500px; 
+}
+@media screen and (max-width:600px){
+    .email-img{
+        width:90%;
+    }
+}
+.footer{
+    width: 100%;
+    height:350px;
+    background-color:#f1f1f1;
+    float: left;
+    margin-top: 5%;
+}
+.footer-heading{
+    padding-left: 5%;
+    padding-top: 5%;
+    float: left;
+}
+.footer-column{
+width: 3%;
+float: left;
+margin-left:8%;
+}   
+@media screen and (max-width:600px) {
+    .footer-column{
+      width:8%;  
+      margin-left:7%;
+      font-size: 13px;
+    }
+} 
