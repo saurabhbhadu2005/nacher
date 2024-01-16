@@ -48,6 +48,11 @@ font-size: 18px;
         color: #333;
         text-align: justify;
     }
+    @media screen and (max-width:316px) {
+        .hadding{
+        font-size:46px;
+        } 
+       }
     .paragraph{
         text-align: justify;
         font-size: 18px;
@@ -123,24 +128,35 @@ margin-top: 3%;
         font-weight: bold;
     }
     .column-side{
-        width: 25%;
+        width: 26%;
         float: left;
         margin-top: 5%;
         color: #333;
-        margin-left:6%;
+        margin-left:7%;
     }
-    @media screen and (max-width:600px) {
+    @media screen and (max-width:400px) {
         .column-side{
-         width: 95%; 
+         width:90%; 
     }      
+}
+.row-hadding{
+font-size:33px;
+font-weight: bold;
+text-align: justify;
+}
+@media screen and (max-width:600px) {
+    .row-hadding{
+        font-size:27px;
+        text-align: justify;
+}      
+}
+.side-img{
+    width: 100%;
 }
     .Lorem{
         font-size: 15px;
         text-align: justify;
         color: black;
-    }
-    .Lorem-ipsum{
-        font-weight: bold;
     }
    .column-middle{
     width: 100%;
@@ -159,9 +175,14 @@ height: auto;
     color: #333;
     font-style: italic;
    }
-   @media screen and (max-width:600px) {
+   @media screen and (max-width:316px) {
     .see-places{
-        font-size:40px;
+        font-size:34px;
+    } 
+   }
+   @media screen and (max-width:600cpx) {
+    .see-places{
+        font-size:34px;
     } 
    }
    .dolor{
@@ -204,11 +225,11 @@ float: left;
 .Lorem-left{
     float: left;
     margin-top:15%;
-    margin-left:5%;
+    margin-left:4%;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:316px){
     .Lorem-left{
-        margin-left:1%;
+        margin-left:0px;
     }
 }
 .black{
@@ -239,6 +260,11 @@ margin-top: 2%;
 .Choose-anywhere{
     font-size:40px;
 }
+@media screen and (max-width:316px) {
+    .Choose-anywhere{
+   font-size:34px; 
+    } 
+   }
 .img-man{
     width:100%;
 }
@@ -250,7 +276,7 @@ margin-top: 2%;
 }
 @media screen and (max-width:600px) {
     .col-middle{
-    width:80%;
+    width:90%;
 margin-top: 2%;
     } 
    }
@@ -258,18 +284,29 @@ margin-top: 2%;
     font-size:49px;
     color: #333;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:316px) {
     .size{
-    font-size:35px;
+    font-size:26px;
+    } 
+   }
+   @media screen and (max-width:600px) {
+    .size{
+    font-size:26px;
     } 
    }
 .img-nacher{
     width: 100%;
-    height:450px;
+    height:400px;
 }
+@media screen and (max-width:316px) {
+    .img-nacher{
+    
+        width: 100%;
+    } 
+   }
 .col3{
     width:25%;  
-    height:350px;
+    height:316px;
     float:left;
     border: 2px solid black;
     margin-top: 6%;
@@ -309,6 +346,12 @@ text-align: center;
     font-size:22px;
     margin-top:3%;
 }    
+@media screen and (max-width:316px){
+    .first-name{
+        width:100%;
+        margin-left:0px;
+    }
+}
 @media screen and (max-width:600px){
     .first-name{
         width:100%;
@@ -320,11 +363,16 @@ text-align: center;
     height: 200px;
     margin-top: 2%;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:316px){
    .textarea{
         width:100%;
     }
 }
+@media screen and (max-width:600px){
+    .textarea{
+         width:100%;
+     }
+ }
 .sumbit-email{
    width: 306px;
    height: 50px;
@@ -333,6 +381,11 @@ text-align: center;
    font-size: 19px; 
    margin-top: 5%;
 }
+@media screen and (max-width:316px){
+    .sumbit-email{
+         width:100%;
+     }
+ }
 .sumbit-email:hover{
     margin-top:5%;
     background-color: white;
@@ -349,7 +402,7 @@ text-align: center;
 }
 .footer{
     width: 100%;
-    height:350px;
+    height: auto;
     background-color:#f1f1f1;
     float: left;
     margin-top: 5%;
@@ -358,6 +411,12 @@ text-align: center;
     padding-left: 5%;
     padding-top: 5%;
     float: left;
+    font-size: 35px;
+}
+@media screen and (max-width:600px){
+    .footer-heading{
+        font-size: 20px;
+    }
 }
 .footer-column{
 width: 3%;
