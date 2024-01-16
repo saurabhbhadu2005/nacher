@@ -20,12 +20,14 @@ text-decoration: none;
 color:#333;
 display: block;
 padding: 25px 17px;
-font-size: 18px;
+font-size:20px;
     }
+.navbar a:hover{
+text-decoration: underline;
+}
     .active{
       color: black;
       font-weight: bold; 
-      font-size:17px; 
     }
     .Contact{
         border: 2px solid black;
@@ -139,6 +141,12 @@ margin-top: 3%;
          width:90%; 
     }      
 }
+@media screen and (max-width:600px) {
+    .column-side{
+     width:30%; 
+     margin-left:3%;
+}      
+}
 .row-hadding{
 font-size:33px;
 font-weight: bold;
@@ -175,22 +183,22 @@ height: auto;
     color: #333;
     font-style: italic;
    }
-   @media screen and (max-width:316px) {
+   @media screen and (max-width:200px) {
     .see-places{
-        font-size:34px;
+        font-size:30px;
     } 
    }
-   @media screen and (max-width:600cpx) {
+   @media screen and (max-width:600px) {
     .see-places{
-        font-size:34px;
+        font-size:30px;
     } 
    }
    .dolor{
     text-align: center;
    }
-   @media screen and (max-width:600px) {
+   @media screen and (max-width:286px) {
     .dolor{
-        font-size:17px;
+        font-size:10px;
     } 
    }
    .col{
@@ -225,11 +233,13 @@ float: left;
 .Lorem-left{
     float: left;
     margin-top:15%;
-    margin-left:4%;
+    margin-left:5%;
+    text-align: justify;
 }
-@media screen and (max-width:316px){
+@media screen and (max-width:600px){
     .Lorem-left{
-        margin-left:0px;
+        margin-left:1%;
+        font-size:15px;
     }
 }
 .black{
@@ -238,10 +248,18 @@ float: left;
     width: 100%;
     float: left;
     margin-top:10%;
+    height:700px;
 }
 @media screen and (max-width:600px) {
     .black{
         margin-top:300px;
+        height: auto;
+}
+}
+@media screen and (max-width:200px) {
+    .black{
+        margin-top:300px;
+        height: auto;
 }
 }
 .Choose{
